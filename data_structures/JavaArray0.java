@@ -1,6 +1,6 @@
 
 // public class
-public class JavaArray{
+public class JavaArray0{
 
     public static void main(String[] args) {
         
@@ -17,6 +17,8 @@ public class JavaArray{
 
         //for loop help to iterate over array using index value 
         //condition that the index value should be in range from 0 to array.length-1
+        //array.length is length property which gives length or size of the array
+
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }

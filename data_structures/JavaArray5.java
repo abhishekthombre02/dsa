@@ -26,10 +26,22 @@ public class JavaArray5 {
        int index= Arrays.binarySearch(arr0, 30);
        System.out.println(index);
 
-       //converting array into string is not that much useful
+       //converting  array into string is not that much useful
        String nums=Arrays.toString(arr0);
 
        System.out.println(nums);
        System.out.println(nums.charAt(0));
+
+       char ch[]={'a','b','h','i'};
+       System.out.println(ch);
+
+       //if you want to convert character array to string then use String.valueOf() method
+       String str1=String.valueOf(ch);
+       System.out.println(str1);
+       System.out.println(String.valueOf(ch));
+
+       String name=Arrays.toString(ch);
+       System.out.println(name);
+
     }
 }
